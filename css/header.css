@@ -1,0 +1,65 @@
+.header {
+  padding: 20px 0px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  text-decoration: none;
+  font-family: "Dancing Script", sans-serif;
+  color: var(--Gray-900, #132238);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 40px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header-item {
+  margin-right: 48px;
+}
+
+.header-link:hover {
+  color: #0fdede;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  border-bottom: 2px solid #0fdede;
+  padding: 10px 0px;
+  transition: 0.5s ease;
+}
+
+.header-link {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.header-linkcha {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  background: var(--Primary-500, #0fdede);
+  text-decoration: none;
+  color: var(--Gray-White, #FFF);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  box-shadow: 0px 0px 5px 5px #0fdede;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,38 @@
+footer {
+    padding: 80px 0px;
+    background: #2B384C;
+}
+
+.footer-logo {
+    color: white;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+}
+
+.footer-item {
+    margin-left: 24px;
+}
+
+.footer-link {
+    color: var(--Gray-50, #F0F1F3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer-text {
+    color: var(--Gray-White, #FFF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
