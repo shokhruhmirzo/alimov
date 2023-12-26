@@ -329,6 +329,12 @@ body {
   line-height: 20px;
 }
 
+.grid-link:hover {
+  background: #0fdede;
+  color: white;
+  transition: 0.8s ease;
+}
+
 .idea {
   padding: 100px 0px;
   background: #132238;
